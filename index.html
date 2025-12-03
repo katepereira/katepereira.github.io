@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Kate Angela Jeanne Pereira</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Portfolio</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about_me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        <!-- </div>
+        <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">Contact</button>
+      </div> -->
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">Kate Angela Jeanne Pereira</span>
+          </h2>
+          <h3 class="text-muted">
+An AI/ML Engineering Enthusiast and Developer Based in Freiburg          </h3>
+<br>
+          <a href="#about_me" class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+  Know more!
+</a>
+
+
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="Kate-Profile.png" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- about me section starts -->
+<section class="expertise mt-5" id="about_me">
+  <div class="heading text-center">
+    <h3 class="text-center">
+      About me<br />
+    </h3>
+
+    <!-- Centered paragraph container -->
+    <div class="col-10 col-md-6 text-center mx-auto" data-aos="slide-right">
+      <p class="text-muted mt-3">
+        I am a full-stack AI/ML engineer and software developer, fueled by a 
+        passion for technology and its transformative impact on the world. 
+        I have developed a solid foundation in Data Structures and Algorithms 💻, 
+        Web Development 🌐, App Development 📱, and AI/Machine Learning 🤖. 
+        While I continually strive to expand my skill set, it is my determination 
+        and eagerness to learn that drive my growth in this ever-evolving field 🚀. 
+        I am excited about the possibilities that technology presents and look 
+        forward to contributing to innovative solutions!
+      </p>
+    </div>
+  </div>
+
+  <div class="row justify-content-evenly mt-5">
+    <div class="col-10 col-md-4" data-aos="fade-up">
+      <div class="service-card">
+        <div class="img">
+          <img src="service-icon1.png" class="w-25 img-fluid img" alt="" />
+        </div>
+        <div class="content mt-3">
+          <h4>Machine Learning</h4>
+          <p class="text-muted">
+            Hands-on experience building and evaluating ML models using techniques such as KNN, Logistic Regression, Decision Trees, Random Forests, and SVMs.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-10" data-aos="fade-up">
+      <div class="service-card">
+        <div class="img">
+          <img src="service-icon2.png" class="w-25 img-fluid img" alt="" />
+        </div>
+        <div class="content mt-3">
+          <h4>Data Science</h4>
+          <p class="text-muted">
+            Worked across the data science workflow, including data cleaning, exploratory analysis, feature engineering, and deriving insights using statistical and visualization tools..
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-10" data-aos="fade-up">
+      <div class="service-card">
+        <div class="img">
+          <img src="service-icon3.png" class="w-25 img-fluid img" alt="" />
+        </div>
+        <div class="content mt-3">
+          <h4>Web Development</h4>
+          <p class="text-muted">
+            Experience in developing responsive, user-friendly web applications using HTML, CSS, JavaScript, and modern frameworks for both frontend and backend
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- about me section ends here -->
+
+
+   <!-- skill section starts -->
+<section class="skill mt-5 py-5" id="about">
+  <div class="row justify-content-evenly">
+
+    <!-- Left side circular progress (unchanged) -->
+    <div class="col-10 col-md-5 skill-with-progress text-center" data-aos="slide-right">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-6 text-center">
+          <div class="progress-card ms-3 ms-md-0 text-center">
+            <div class="circular-progress html-css text-center">
+              <span class="progress-value html-progress">0%</span>
+            </div>
+            <br />
+          <span class="text">Python</span>
+          </div>
+        </div>
+
+        <div class="col-10 col-md-6 mt-4 mt-md-0">
+          <div class="progress-card ms-3 ms-md-0">
+            <div class="circular-progress javascript">
+              <span class="progress-value javascript-progress">0%</span>
+            </div>
+            <br />
+            <span class="text">HTML, CSS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-evenly mt-4">
+        <div class="col-10 col-md-6">
+          <div class="progress-card ms-3 ms-md-0">
+            <div class="circular-progress php">
+              <span class="progress-value php-progress">0%</span>
+            </div>
+            <br />
+            <span class="text">Java</span>
+          </div>
+        </div>
+
+        <div class="col-10 col-md-6 mt-4 mt-md-0">
+          <div class="progress-card ms-3 ms-md-0">
+            <div class="circular-progress reactjs">
+              <span class="progress-value reactjs-progress">0%</span>
+            </div>
+            <br>
+            <span class="text">JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Side: New Content -->
+    <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+      <div class="heading mt-5 mt-md-3">
+        <small>My Skills</small>
+        <h3>Full-Stack AI/ML Engineer & Software Developer</h3>
+
+                <p class="text-muted"><strong>Programming Languages:</strong><br>
+          Python, Java, SQL, JavaScript (Proficient) <br>
+          C, C++, HTML, CSS, PHP (Familiar)
+        </p>
+
+        <p class="text-muted"><strong>Frameworks & Libraries:</strong><br>
+          TensorFlow, React.js, Django, MATLAB, UiPath
+        </p>
+
+        <p class="text-muted"><strong>Databases:</strong><br>
+          MongoDB, MySQL, PostgreSQL, SQLite
+        </p>
+
+        <p class="text-muted"><strong>Tools & Applications:</strong><br>
+          Visual Studio, PyCharm, MATLAB, Android Studio, Xcode, Figma, Spline, BotPress, Postman, Docker
+        </p>
+
+        <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+          <a href="Kate Germany Final CV.pdf" 
+             download="KateCV"
+             style="text-decoration: none; color: #fff;">
+            Download CV
+          </a>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- skill section end here -->
+
+
+    <!-- Education Section Starts -->
+<section class="education mt-5 py-5" id="education">
+  <div class="heading text-center">
+    <h3>Education</h3>
+  </div>
+
+  <div class="row justify-content-evenly mt-4 px-4">
+
+    <!-- Education Item 1 -->
+    <div class="col-md-3 col-10 mt-3">
+      <div class="service-card p-4 text-center">
+
+        <!-- University of Freiburg Logo -->
+        <img src="ufr_img.jpeg" 
+             alt="University of Freiburg" 
+             class="img-fluid mb-3" 
+             style="height: 120px;" />
+
+        <h4 class="fw-bold">M.Sc. Computer Science (AI Specialization)</h4>
+        <p class="text-muted mb-1">University of Freiburg</p>
+        <p class="text-muted mb-1">2025 – Present</p>
+        <p class="text-muted">Focused on AI/ML, Deep Learning, AutoML, Reinforcement Learning, Data Analysis</p>
+      </div>
+    </div>
+
+    <!-- Education Item 2 -->
+    <div class="col-md-3 col-10 mt-3">
+      <div class="service-card p-4 text-center">
+
+        <!-- St. Joseph Engineering College Logo -->
+        <img src="sjec_img.jpeg" 
+             alt="St Joseph Engineering College" 
+             class="img-fluid mb-3" 
+             style="height: 120px;" />
+
+        <h4 class="fw-bold">B.E. Artificial Intelligence & Machine Learning</h4>
+        <p class="text-muted mb-1">St Joseph Engineering College</p>
+        <p class="text-muted mb-1">2020 – 2024</p>
+        <p class="text-muted">
+        
+       Worked with Neural Networks, Mathematics for Machine Learning, Foundations of Deep Learning, Data Structures & Algorithms
+</p>
+
+      </div>
+    </div>
+
+    <!-- Education Item 3 -->
+    <div class="col-md-3 col-10 mt-3">
+      <div class="service-card p-4 text-center">
+
+        <!-- Lourdes Central School Logo -->
+        <img src="lcs_img.jpeg" 
+             alt="Lourdes Central School" 
+             class="img-fluid mb-3" 
+             style="height: 120px;" />
+
+        <h4 class="fw-bold">Physics, Chemistry, Mathematics, Biology (PCMB)</h4>
+        <p class="text-muted mb-1">Lourdes Central School</p>
+        <p class="text-muted mb-1">2018 – 2020</p>
+        <p class="text-muted">Completed with strong academic performance in Physics, Chemistry, Mathematics</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- Education Section Ends -->
+
+    
+
+    <!-- portfolio section starts here -->
+    <!-- Fixed Portfolio Section with Correct Filter Categories -->
+<section class="portfolio" id="portfolio">
+  <div class="heading text-center pt-5">
+    <small>Creative Work</small>
+    <h3>Check My Projects</h3>
+  </div>
+
+  <!-- Filter Buttons -->
+  <div id="myBtnContainer" class="text-center mt-4">
+    <button class="filter-item" data-filter="all">All</button>
+    <button class="filter-item" data-filter="game">Nurturhub</button>
+    <button class="filter-item" data-filter="webapp">Crime Management System</button>
+    <button class="filter-item" data-filter="website">Forest Fire Prediction</button>
+    <button class="filter-item" data-filter="brand">Women's Safety App</button>
+    <button class="filter-item" data-filter="brand">Tranquilife</button>
+  </div>
+
+  <div class="portfolio-body">
+    <div class="row justify-content-evenly px-4">
+
+      <!-- Nurturhub -->
+      <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="nurturhub.jpg" class="card-img-top" alt="Nurturhub" height="300px" />
+          <div class="card-body text-center">
+            <h4 class="card-title">Nurturhub: A Smart Maternal Health Monitoring Device</h4>
+            <span class="badge bg-secondary badge-pill">Machine Learning</span>
+            <span class="badge bg-secondary badge-pill">IoT</span>
+            <span class="badge bg-secondary badge-pill mb-2">KNN Regressor</span>
+            <span class="badge bg-secondary badge-pill">Arduino IDE</span>
+            <span class="badge bg-secondary badge-pill">Embedded Systems</span>
+            <br />
+            <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#modalNurturhub">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Forest Fire Prediction -->
+      <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="ss3.png" class="card-img-top" alt="Forest Fire" height="300px" />
+          <div class="card-body text-center">
+            <h4 class="card-title">Forest Fire Prediction System</h4>
+            <span class="badge bg-secondary badge-pill">Random Forest</span>
+            <span class="badge bg-secondary badge-pill">Python</span>
+            <span class="badge bg-secondary badge-pill">Flask</span>
+            <span class="badge bg-secondary badge-pill">HTML & CSS</span>
+            <span class="badge bg-secondary badge-pill">JavaScript</span>
+            <br />
+            <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#modalForest">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Crime Management System -->
+      <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="crime.png" class="card-img-top" alt="Crime Management" height="300px" />
+          <div class="card-body text-center">
+            <h4 class="card-title">Crime Management System</h4>
+            <span class="badge bg-secondary badge-pill">RDBMS</span>
+            <span class="badge bg-secondary badge-pill">PHP</span>
+            <span class="badge bg-secondary badge-pill mb-2">MySQL</span>
+            <span class="badge bg-secondary badge-pill">HTML & CSS</span>
+            <span class="badge bg-secondary badge-pill">JavaScript</span>
+            <br />
+            <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#modalCrime">Read More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Row 2 -->
+    <div class="row justify-content-evenly mt-4 px-4">
+
+      <!-- Women's Safety Application -->
+      <div class="post col-md-4 brand all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="womens.jpeg" class="card-img-top" alt="Women's Safety App" height="300px" />
+          <div class="card-body text-center">
+            <h4 class="card-title">Women's Safety Application</h4>
+            <span class="badge bg-secondary badge-pill">Mobile App Dev</span>
+            <span class="badge bg-secondary badge-pill">UI/UX</span>
+            <span class="badge bg-secondary badge-pill mb-2">Java</span>
+            <span class="badge bg-secondary badge-pill">Android Studio</span>
+            <span class="badge bg-secondary badge-pill">Location Services</span>
+            <br />
+            <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#modalWomen">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tranquilife -->
+      <div class="post col-md-4 brand all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="tranquilife.png" class="card-img-top" alt="Tranquilife" height="300px" />
+          <div class="card-body text-center">
+            <h4 class="card-title">Tranquilife: A Student Mental Health Monitoring Device</h4>
+            <span class="badge bg-secondary badge-pill">Logistic Regression</span>
+            <span class="badge bg-secondary badge-pill">Python</span>
+            <span class="badge bg-secondary badge-pill">Machine Learning</span>
+            <span class="badge bg-secondary badge-pill">HTML & CSS</span>
+            <span class="badge bg-secondary badge-pill">JavaScript</span>
+            <span class="badge bg-secondary badge-pill mb-2">Web App</span>
+            <br />
+            <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#modalTranquilife">Read More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- portfolio section ends here -->
+
+    <!-- portfolio section ends here -->
+
+        <!-- pop up starts here -->
+
+     <div class="modal fade" id="modalNurturhub" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal">
+        <i class="bi bi-x-circle-fill"></i>
+      </button>
+
+      <div class="modal-body px-4">
+        <div class="img">
+          <img src="nurturhub.jpg" class="img-fluid" alt="" width="800px">
+        </div>
+
+        <div class="content mt-3">
+          <h4 class="card-title">NurturHub: A Smart Maternal Health Monitoring Device</h4>
+
+          <p class="text-muted mt-2">
+            Developed a maternal health monitoring device using ESP32, biomedical sensors, Android Studio, and a KNN Regressor model with 81% accuracy. Designed to detect stress in pregnant women and support early intervention.
+          </p>
+
+          <div class="skill-tags mt-3">
+            <span class="tag">| Machine Learning</span>
+            <span class="tag">| KNN Regressor</span>
+            <span class="tag">| IoT</span>
+            <span class="tag">| ESP32</span>
+            <span class="tag">| Arduino IDE</span>
+            <span class="tag">| Android Studio</span>
+            <span class="tag">| Biosensors |</span>
+          </div>
+
+          <!-- GitHub Button -->
+          <div class="mt-4 text-center">
+            <a href="https://github.com/katepereira/Maternal-Health-Monitoring-Device" target="_blank" class="btn btn-dark rounded-pill px-4 py-2">
+              <i class="bi bi-github"></i> View on GitHub
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalForest" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal">
+        <i class="bi bi-x-circle-fill"></i>
+      </button>
+
+      <div class="modal-body px-4">
+        <div class="img">
+          <img src="ss3.png" class="img-fluid" alt="">
+        </div>
+
+        <div class="content mt-3">
+          <h4 class="card-title">Forest Fire Prediction System</h4>
+
+          <p class="text-muted mt-2">
+            Built a Random Forest–based prediction model integrated with a Flask backend and an interactive web interface. Enables real-time forest fire risk estimation for early prevention.
+          </p>
+
+          <div class="skill-tags mt-3">
+            <span class="tag">| Random Forest</span>
+            <span class="tag">| Python</span>
+            <span class="tag">| Flask</span>
+            <span class="tag">| Machine Learning</span>
+            <span class="tag">| HTML/CSS</span>
+            <span class="tag">| JavaScript |</span>
+          </div>
+
+          <!-- GitHub Button -->
+          <div class="mt-4 text-center">
+            <a href="https://github.com/katepereira/Forest-Fire-Prediction" target="_blank" class="btn btn-dark rounded-pill px-4 py-2">
+              <i class="bi bi-github"></i> View on GitHub
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalCrime" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal">
+        <i class="bi bi-x-circle-fill"></i>
+      </button>
+
+      <div class="modal-body px-4">
+        <div class="img">
+          <img src="crime.png" class="img-fluid" alt="" width="800px">
+        </div>
+
+        <div class="content mt-3">
+          <h4 class="card-title">Crime Management System</h4>
+
+          <p class="text-muted mt-2">
+            A PHP and MySQL-based system designed to improve law enforcement workflows, enhance data accuracy, and streamline communication using an RDBMS-driven architecture.
+          </p>
+
+          <div class="skill-tags mt-3">
+            <span class="tag">| PHP |</span>
+            <span class="tag">MySQL |</span>
+            <span class="tag">RDBMS |</span>
+            <span class="tag">Backend Development |</span>
+            <span class="tag">Database Design |</span>
+            <span class="tag">System Optimization |</span>
+          </div>
+
+          <!-- GitHub Button -->
+          <div class="mt-4 text-center">
+            <a href="https://github.com/katepereira/Crime-Management-System" target="_blank" class="btn btn-dark rounded-pill px-4 py-2">
+              <i class="bi bi-github"></i> View on GitHub
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalWomen" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal">
+        <i class="bi bi-x-circle-fill"></i>
+      </button>
+
+      <div class="modal-body px-4">
+        <div class="img">
+          <img src="womens.jpeg" class="img-fluid" alt="" width="800px">
+        </div>
+
+        <div class="content mt-3">
+          <h4 class="card-title">Women’s Safety Application</h4>
+
+          <p class="text-muted mt-2">
+            A mobile app offering SOS alerts, emergency contacts, and real-time location sharing. Developed using Java and Android Studio to provide quick-access safety tools.
+          </p>
+
+          <div class="skill-tags mt-3">
+            <span class="tag">| Android Studio |</span>
+            <span class="tag">Java |</span>
+            <span class="tag">Mobile App Development |</span>
+            <span class="tag">UI/UX Design |</span>
+            <span class="tag">Location Services |</span>
+            <span class="tag">Safety System |</span>
+          </div>
+
+          <!-- GitHub Button -->
+          <div class="mt-4 text-center">
+            <a href="https://github.com/katepereira/Womens-Safety-App" target="_blank" class="btn btn-dark rounded-pill px-4 py-2">
+              <i class="bi bi-github"></i> View on GitHub
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalTranquilife" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal">
+        <i class="bi bi-x-circle-fill"></i>
+      </button>
+
+      <div class="modal-body px-4">
+        <div class="img">
+          <img src="tranquilife.png" class="img-fluid" alt="">
+        </div>
+
+        <div class="content mt-3">
+          <h4 class="card-title">Tranquilife: Mental Health Prediction System</h4>
+
+          <p class="text-muted mt-2">
+            A Logistic Regression-based system predicting mental health needs in students. Includes an interactive HTML/CSS/JS questionnaire for instant insights.
+          </p>
+
+          <div class="skill-tags mt-3">
+            <span class="tag">| Machine Learning |</span>
+            <span class="tag">Logistic Regression |</span>
+            <span class="tag">Python |</span>
+            <span class="tag">Web App |</span>
+            <span class="tag">JavaScript |</span>
+            <span class="tag">Mental Health Analysis |</span>
+          </div>
+
+          <!-- GitHub Button -->
+          <div class="mt-4 text-center">
+            <a href="https://github.com/katepereira/Tranquilife-A-Student-Mental-Health-Prediction-System" target="_blank" class="btn btn-dark rounded-pill px-4 py-2">
+              <i class="bi bi-github"></i> View on GitHub
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+        <!-- pop up ends here -->
+
+
+    
+    
+    <!-- contact section starts -->
+<section class="contact py-5" id="contact">
+  <div class="heading text-center">
+    <small>Get in Touch</small>
+    <h3>Any Questions? Feel Free to Contact</h3>
+  </div>
+
+  <div class="row justify-content-evenly mt-5">
+
+    <!-- Contact Details -->
+    <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+      <div class="row justify-content-evenly">
+        <div class="col-1">
+          <i class="bi bi-geo-alt-fill"></i>
+        </div>
+        <div class="col-11">
+          <p>Freiburg im Breisgau, Deutschland, 79106</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-evenly">
+        <div class="col-1">
+          <i class="bi bi-telephone-fill"></i>
+        </div>
+        <div class="col-11">
+          <p>+49 15510834270</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-evenly">
+        <div class="col-1">
+          <i class="bi bi-send-fill"></i>
+        </div>
+        <div class="col-11">
+          <p>kateajpereira@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-evenly">
+        <div class="col-1">
+          <i class="bi bi-globe-americas"></i>
+        </div>
+        <div class="col-11">
+          <p>katepereira.github.io</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+      <form action="https://formspree.io/f/mgvgydng" method="POST" class="contact-form">
+
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            name="name"
+            placeholder="Name"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <input
+            type="email"
+            class="form-control"
+            name="email"
+            placeholder="E-mail"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            name="mobile"
+            placeholder="Mobile No."
+          />
+        </div>
+
+        <div class="mb-3">
+          <textarea
+            class="form-control"
+            name="message"
+            placeholder="Message"
+            rows="5"
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+          Submit
+        </button>
+
+      </form>
+    </div>
+
+  </div>
+</section>
+<!-- contact section ends -->
+
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about_me">About</a>
+        <div class="vr"></div>
+        <a href="#about">Skills</a>
+        <div class="vr"></div>
+        <a href="#education">Education</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Projects</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+
+  <!-- GitHub -->
+  <a href="https://github.com/katepereira" target="_blank" 
+     class="rounded-pill github">
+    <i class="bi bi-github"></i>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/kate-pereira-36222b226/" target="_blank" 
+     class="rounded-pill linkedin">
+    <i class="bi bi-linkedin"></i>
+  </a>
+  
+  <!-- Gmail (opens default mail app) -->
+  <a href="mailto:kateajpereira@gmail.com" class="rounded-pill gmail">
+    <i class="bi bi-envelope-fill"></i>
+  </a>
+
+</div>
+
+      </div>
+      <hr class="text-muted my-4" />
+
+      <p>Copyright 2024 Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="script.js"></script>
+    
+
+    <script>
+  const filterButtons = document.querySelectorAll(".filter-item");
+  const posts = document.querySelectorAll(".post");
+
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const filter = button.getAttribute("data-filter");
+
+      posts.forEach((post) => {
+        if (filter === "all" || post.classList.contains(filter)) {
+          post.style.display = "block";
+        } else {
+          post.style.display = "none";
+        }
+      });
+    });
+  });
+</script>
+
+  </body>
+</html>
